@@ -10,6 +10,8 @@ const Header = () => {
                 </h1>
                 <nav>
                     <Link to="/" className="mr-4 hover:underline">Home</Link>
+                    <Link to="/tech" className="mr-4 hover:underline">Tech</Link>
+                    <Link to="/cases" className="hover:underline">Cases</Link>
                     <Link to="/articles" className="hover:underline">Articles</Link>
                 </nav>
             </div>

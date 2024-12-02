@@ -56,6 +56,22 @@ const MainPage = () => {
 
             <div className="text-center mt-6">
                 <Link
+                    to="/tech"
+                    className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600"
+                >
+                    기술 설명 보러가기
+                </Link>
+            </div>
+            <div className="text-center mt-6">
+                <Link
+                    to="/cases"
+                    className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600"
+                >
+                    클라우드 컴퓨팅 사례 보러가기
+                </Link>
+            </div>
+            <div className="text-center mt-6">
+                <Link
                     to="/articles"
                     className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600"
                 >
